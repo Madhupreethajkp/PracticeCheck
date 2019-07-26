@@ -1,0 +1,84 @@
+
+.d{
+height:40px;
+width:1901px;
+background-color:#115496;
+padding:5px;
+position:absolute;
+top:0;
+display:inline-block;
+color:white;
+text-align:left;
+margin-bottom:5px;
+font-size:20px;
+}
+.link
+{
+                float:right;
+                margin-right:165px;
+                color:white;
+                margin-top:6px;
+}
+.footer
+{
+                background-color:grey;
+                width:1901px;
+                height:40px;
+                margin-top:650px;
+}
+
+#prod-tab{
+                width:70%;
+                margin:40px;
+}
+table th{
+                text-align:left;
+                
+}
+.m{
+                margin:40px;
+}
+#edit_tab{
+	width:60%;
+	margin:20px;
+	
+}
+.save{
+	text-decoration:none;
+	color:white;
+	background-color:#115496;
+	width:90px;
+	height:40px;
+}
+.save a{
+	text-decoration:none;
+	color:white;
+}
+.m1{
+	margin:20px;
+	color:limegreen;
+}
+.edit{
+	margin:40px;
+}
+.heading{
+	color:blue;
+	font-style:bold;
+}
+#cust-tab{
+                width:100%;
+                margin:20px;
+}
+.c{
+	text-align:center;
+	color:limegreen;
+}
+.c1{
+	color:grey;
+	margin:20px;
+}
+.c1 a{
+	color:#1E90FF;
+}
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="style/Header.css">
+<script src="js/practice.js">
+</script>
+</head>
+<body>
+<div class="d">
+<img style="height:43px" src="images/spoon.png" />
+<a class="link" href="menu-item-list-admin.html">Menu</a>
+</div>
+<br/><br/>
+<div class="m">
+<h1>Edit Menu Items</h1>
+<form name="menu" method="" action="edit-menu-item-status.html" onsubmit="return validate()">
+<table width="60%">
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+<tr>
+Name
+</tr>
+<br/>
+<tr>
+<input type="text" name="name" id="name" size="140"/>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr>
+<td>Price(Rs.)</td>
+<td>Active</td>
+<td>Date Of Launch</td>
+<td>Category</td>
+</tr>
+<tr>
+<td><input type="text" name="price" id="price"/></td>
+<td><input type="radio" name="checkbox" id="check" checked />Yes
+<input type="radio" name="checkbox" id="check" checked />No</td>
+<td><input type="text" name="date" id="date"/></td>
+<td><select name="category">
+<option value="">None
+<option value="Starters">Starters
+<option value="Main Course">Main Course
+<option value="Dessert">Dessert
+<option value="Drinks">Drinks
+</select>
+</td>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr>
+<td><input type="checkbox" name="delivery" id="delivery"/>
+Free Delivery</td>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr>
+<td>
+<input type="submit" value="save" class="save"/>
+</td>
+</tr>
+</table>
+</form>
+</div>
+<footer class="footer">
+Copyright &copy; 2019
+</footer>
+</body>
+</html>
